@@ -30,7 +30,7 @@ public class automationPracticeForm {
         $(".react-datepicker__day--007").click();
         $("#subjectsInput").setValue("Computer Science").pressEnter();
         $("#hobbiesWrapper").$(byText("Sports")).click();
-        $("#uploadPicture").uploadFromClasspath("1.jpeg");
+        $("#uploadPicture").uploadFromClasspath("fun.jpg");
 
         $("#currentAddress").setValue("Address, Street, Building");
 
