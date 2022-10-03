@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c494f27c-ccec-482f-be24-51aab495d57f" name="Changes" comment="add .gitignore 2">
+    <list default="true" id="c494f27c-ccec-482f-be24-51aab495d57f" name="Changes" comment="add image">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/demoqa/automationPracticeForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/automationPracticeForm.java" afterDir="false" />
     </list>
@@ -63,7 +63,7 @@
       <recent name="C:\Users\asham\IdeaProjects\Lesson_3_library" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.automationPracticeForm">
+  <component name="RunManager" selected="Gradle.automationPracticeForm.fillFormTest">
     <configuration name="JUnitDemoTest.simpleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -110,8 +110,32 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="automationPracticeForm.fillFormTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.demoqa.automationPracticeForm.fillFormTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.automationPracticeForm.fillFormTest" />
         <item itemvalue="Gradle.automationPracticeForm" />
         <item itemvalue="Gradle.JUnitDemoTest.simpleTest" />
       </list>
@@ -147,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664800705834</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add image">
+      <created>1664801023747</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664801023748</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -164,6 +195,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add .gitignore" />
     <MESSAGE value="add .gitignore 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="add .gitignore 2" />
+    <MESSAGE value="add image" />
+    <option name="LAST_COMMIT_MESSAGE" value="add image" />
   </component>
 </project>

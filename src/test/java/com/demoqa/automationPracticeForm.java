@@ -4,6 +4,7 @@ import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
+import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
@@ -27,8 +28,8 @@ public class automationPracticeForm {
         $("#dateOfBirthInput").click();
         $(".react-datepicker__month-select").selectOption("August");
         $(".react-datepicker__year-select").selectOption("1987");
-        $(".react-datepicker__day--007").click();
-        $("#subjectsInput").setValue("Computer Science").pressEnter();
+        $(".react-datepicker__day--013").click();
+        $("#subjectsInput").setValue("Radio").pressEnter();
         $("#hobbiesWrapper").$(byText("Sports")).click();
         $("#uploadPicture").uploadFromClasspath("fun.jpg");
 
@@ -42,5 +43,17 @@ public class automationPracticeForm {
 
         executeJavaScript("$('footer').remove()");
         executeJavaScript("$('#fixedban').remove()");
+        $("#example-modal-sizes-title-lg").shouldHave(text("Thanks for submitting the form"));
+
+        $(".table-responsive").shouldHave(text("Anvar Shamsutdinov"),
+                text("a.shams@mail.com"),
+                text("Male"),
+                text("+79244850300"),
+                text("13 August,1987"),
+                text("RAdio"),
+                text("Sports"),
+                text("fun.jpeg"),
+                text("Address, Street, Building"),
+                text("NCR Delhi"));
     }
 }
