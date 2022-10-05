@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c494f27c-ccec-482f-be24-51aab495d57f" name="Changes" comment="add new variant">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/TestForm.java" afterDir="false" />
+    <list default="true" id="c494f27c-ccec-482f-be24-51aab495d57f" name="Changes" comment="Final variant">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoqa/JUnitDemoTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoqa/automationPracticeForm.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -245,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664946921089</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Final variant">
+      <created>1664952250672</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1664952250672</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -265,6 +269,7 @@
     <MESSAGE value="add image" />
     <MESSAGE value="add image 2" />
     <MESSAGE value="add new variant" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new variant" />
+    <MESSAGE value="Final variant" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final variant" />
   </component>
 </project>
